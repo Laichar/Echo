@@ -142,7 +142,7 @@ function generate() {
         t.innerHTML = gs
 	wumaoRiposta = wumao(n,b)
 	var riposta = document.createElement("h2")
-	riposta.innerHTML = wumaoRiposta()
+	riposta.innerHTML = wumaoRiposta
 	document.getElementById("text").appendChild(riposta)
         document.getElementById("text").appendChild(t)
     }
